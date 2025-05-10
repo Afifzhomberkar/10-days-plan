@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #bd4db3;
+}
+
+form, table {
+  background: #c22b71;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(139, 120, 10, 0.1);
+}
+
+input, select, textarea {
+  display: block;
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #2f0261;
+  padding: 10px;
+  text-align: left;
+}

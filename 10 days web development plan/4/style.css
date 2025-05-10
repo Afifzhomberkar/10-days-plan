@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #01c0ce;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+.error {
+    color: rgb(182, 84, 84);
+    font-size: 0.9em;
+}
+
+input, textarea, button {
+    background-color: ;
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button{
+    color: rgb(235, 245, 245);
+    background-color: rgb(5, 62, 66);
+    border-radius: 5px;
+}
+ button:hover{
+    background-color: aqua;
+    color: #f9f9f9;
+}
+
+.dark-mode {
+    background: #0a0a0a;
+    color: #ffffff;
+}
+
+.dark-mode input, .dark-mode textarea, .dark-mode button {
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}User List{% endblock %}
+
+{% block content %}
+    <h2>Group: {{ info.group }}</h2>
+    <p>Total Users: {{ info.count }}</p>
+
+    <ul>
+        {% for user in users %}
+            <li>
+                {{ user.name }} - 
+                {% if user.age >= 18 %}
+                    Adult
+                {% else %}
+                    Minor
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
